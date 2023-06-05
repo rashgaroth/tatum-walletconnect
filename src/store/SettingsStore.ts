@@ -50,6 +50,10 @@ const SettingsStore = {
     state.eip155Address = eip155Address
   },
 
+  setRelayerRegionURL(relayerRegionURL: string) {
+    state.relayerRegionURL = relayerRegionURL
+  },
+
   setActiveChainId(value: string) {
     state.activeChainId = value
   },
